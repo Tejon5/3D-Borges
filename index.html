@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d Card Effect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="writter">
+                <div class="circle"></div>
+                <img src="./jborges2.png" alt="el otro" id="image">
+            </div>
+            <div class="info">
+                <h1 class="title">Jorge Luis Borges</h1>
+                <h3 id="quote">La verdad es que el error también tiene sus derechos.</h3>
+                <div class="button-container">
+                    <button class='btn1' id="btn1" onclick="changeText(1)">El Otro</button>
+                    <button class="btn2" id="btn2" onclick="changeText(2)">JLB</button>
+                    <button class='btn3' id="btn3" onclick="changeText(3)">Pierre Menard</button>                      
+                </div>
+                <div class="contact">
+                    <button onclick="window.location.href='https://www.linkedin.com/in/juanvillalba5/'">Contactar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
