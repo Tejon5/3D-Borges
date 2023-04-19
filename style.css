@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     perspective: 1000px;
+    padding: 100px;
   }
   .container {
     width: 50%;
