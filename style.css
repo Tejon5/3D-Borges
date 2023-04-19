@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .card {
     transform-style: preserve-3d;
     min-height: 70vh;
@@ -106,4 +107,8 @@
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
+  }
+
+  .btn-contact {
+    font-size: 20px;
   }

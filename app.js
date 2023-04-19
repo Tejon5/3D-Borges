@@ -39,16 +39,22 @@ const changeText = (num) =>{
     quote.style.color= 'black';
     btn1.style.backgroundColor = 'gold';
     btn1.style.color = 'black';
+    btn2.style.backgroundColor = '';
+    btn3.style.backgroundColor = '';
   }else if(num===2){
     quote.innerHTML = 'Facilmente aceptamos la realidad, acaso porque intuimos que nada es real.';
     quote.style.color= 'black'
     btn2.style.backgroundColor = 'gold';
     btn2.style.color = 'black';
+    btn1.style.backgroundColor = '';
+    btn3.style.backgroundColor = '';
   }else{
     quote.innerHTML = 'Todo hombre debe ser capaz de todas las ideas y entiendo que en el porvenir lo sera.';
     quote.style.color= 'black'
     btn3.style.backgroundColor = 'gold';
     btn3.style.color = 'black';
+    btn1.style.backgroundColor = '';
+    btn2.style.backgroundColor = '';
   }
 }
 
